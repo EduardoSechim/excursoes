@@ -1,0 +1,26 @@
+.principal {
+    background-color: rgb(255, 255, 255);
+    margin: 40px; 
+    height: 600px;
+    border-radius: 10px;
+}
+
+.descricao {
+    margin: 0 auto;
+    display: flex; /* Ativa o modelo de layout flexível */
+    justify-content: center; /* Alinha os itens horizontalmente no centro */
+    align-items: center;
+    width: 400px;
+    margin-left: 100px; 
+    height: 80vh;
+    background-color: black;
+    color: azure;
+}
+ 
+.descricao h1{
+    font-size: 20px;  
+  }
+  
+.descricao h2{
+    font-size: 16px;  
+  }
