@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 body {
     margin: 0; /* Remove margens padrão do body */
-    background: linear-gradient(to right, #dadada, #d8b0e4); /* Define o degradê */
+    background: linear-gradient(to right, #c4bda7, #beb69b); /* Define o degradê */
     height: 100vh; /* Define a altura como 100% da altura da viewport */
     }
