@@ -1,0 +1,41 @@
+.Navbar {
+    background-image: linear-gradient(to right, #FAFAFA, #ECECEC);
+    display: flex;
+    padding: 24px;
+    font-family: "Inter", sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.Navbar_itens {
+    display:flex;
+    margin-left:auto;
+}
+
+.Navbar_Link {
+    padding-right: 25px;
+}
+
+.Navbar_link-toggle {
+    display: none;
+}
+
+
+/* css responsivo para telefone celular */
+@media only screen and (max-width: 768px) {
+    .Navbar_itens,
+    .Navbar {
+      flex-direction: column;
+    }
+    
+    .Navbar_itens--direita {
+      margin-left: 0;
+      display:none;
+    }
+
+    .Navbar_link-toggle {
+        align-self: flex-end;
+        display: initial;
+        position: absolute;
+        cursor: pointer;
+    }
+}
